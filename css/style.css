@@ -132,6 +132,9 @@ body{
 .headertext2{
     float: right;
     width: min-content;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    margin-left: 50px;
 }
 
 /*Pictures of people*/
@@ -152,7 +155,16 @@ body{
 }
 
 
+.hj
+{
+    margin-left: 50px;
+    font-weight: bolder;
+    font-size: large;
+}
 
+.pepper{
+    font-size:xx-large;
+}
 
 
 
