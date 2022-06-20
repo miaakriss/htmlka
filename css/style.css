@@ -189,6 +189,12 @@ body{
     padding-top: 30px;
 }
 
+.shaperleft{
+
+    float: left;
+    padding-top: 50px;
+}
+
 h1{
     padding-top: 40px;
 
@@ -196,37 +202,37 @@ h1{
 
 .wid{
 
- /*   width: 40%;*/
+   width: min-content;
 }
 .name{
     display: flex;
-  /*  justify-content: space-between;*/
+  justify-content: space-between;
     
 }
 
 .txtst{
-   /* padding-top: 100px;*/
-    font-weight: bolder;
+   padding-top: 100px;
+   font-weight: bolder;
     font-size:xx-large;
     display: inline;
     
 }
 
-/*.ll
+.lineundertxt
 {
     padding-top: 20px;
     border-bottom: 4px solid black;
     width: 250px;
 }
 
-.ere
+.txtedit
 {
     padding-top: 40px;
-   font-size:large; 
-   width: 65%;
+    font-size: initial;
+   width: 100%;
+   text-align: justify;
+   font-family: cursive;
 }
-*/
-
 
 
 
