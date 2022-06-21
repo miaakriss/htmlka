@@ -177,6 +177,8 @@ body{
     -webkit-background-size: cover;
     background-size: cover;
     height: 1200px;
+    z-index: 5;
+
 }
 
 .headertext3{
@@ -193,6 +195,8 @@ body{
 
     float: left;
     padding-top: 50px;
+    position: relative;
+    z-index: 3;
 }
 
 h1{
@@ -234,8 +238,19 @@ h1{
    font-family: cursive;
 }
 
+/*Fourblock*/
 
 
-
-
-
+.fourblock{
+     background: url("../images/secondb.jpg")center
+no-repeat;
+    height: 1200px;
+    background-size: cover;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: relative;
+    z-index: 10;
+    margin-top: -246px;
+}
