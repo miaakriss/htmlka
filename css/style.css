@@ -11,6 +11,8 @@ body{
     background-image: url(../images/background.png);
 }
 
+
+
 .texture {
     position: absolute;
     height: 100%;
@@ -365,14 +367,42 @@ no-repeat;
 .textlogo5
 {
     float: left;
+    padding-top: 190px;
+
 }
+
+
 
 .peoplee5
 {
-    position: absolute;
-    padding-top: 260px;
-    margin-left: 1000px;
+    margin-top: -75px;
     float: right;
 
 }
+
+.lineunderlogo5
+{
+    padding-top: 20px;
+    border-bottom: 4px solid black;
+    width: 550px;
+}
+
+.txtedit_tp5
+{
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+.txtedit5
+{
+    padding-top: 20px;
+    width: 500px;
+}
+
+.shaperleft5 img
+{
+    margin-top: 500px;
+    float: left;
+}
+
 
