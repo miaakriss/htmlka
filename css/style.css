@@ -4,7 +4,7 @@
 body{
     position: relative;
     margin: 0;
-    height: 8000px;
+    height: 8220px;
     font-family: 'DM Serif Text', serif;
     line-height: 1.3;
     color: black; 
@@ -401,8 +401,158 @@ no-repeat;
 
 .shaperleft5 img
 {
-    margin-top: 500px;
     float: left;
 }
 
+/*SixBlock*/
 
+.sixblock
+{
+    background: url("../images/fourblock1.png")center
+    no-repeat;
+        background-size: cover;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        position: relative;
+    margin-top: -130px;
+    height: 1200px;
+}
+
+.lineup6 img
+{
+    z-index: 0;
+    float: right;
+}
+
+.peopleright6
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 112px;
+}
+
+.peopleleft6
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 170px;
+}
+
+.babydown6
+{
+    position: absolute;
+    bottom: -5px;
+    width: 100%;
+    left: 0;
+
+}
+
+.babydown6 img
+{
+    width: 100%;
+}
+
+.textlogo6
+{
+    margin: 0 auto;
+    padding-top: 250px;
+    text-align: center;
+    font-size: 120px;
+    width: 50%;
+}
+
+.textlogo6 h3 {
+    font-size: 35px;
+}
+
+.textlogo6 p {
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+}
+
+.lineup6 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: -20px;
+}
+
+/*Sevenblock*/
+
+.shaperleft7 img
+{
+    margin-top: -270px;
+}
+
+.title7
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.title7 img{
+    width: 1200px;
+}
+
+.btn7
+{
+    font-size: 26px;
+    padding: 12px 35px;
+    color:black;
+    border-radius: 40px;
+    display: inline-block;
+    white-space: normal;
+    border: none;
+    background: rgba(150,191,210,0.8);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.button_letstalk
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.shaper7down
+{
+  
+    float: right;
+}
+
+.textdown7
+{
+    position: absolute;
+    margin-top: 150px;
+    right: 100px;
+}
+
+.sevenblock
+{
+    z-index: 20;
+    position: relative;
+}
+
+.textdown7 p
+{
+    font-size: xx-large;
+}
+
+.textdown8
+{
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.textdown8 p{
+    font-size: xx-large;
+}
